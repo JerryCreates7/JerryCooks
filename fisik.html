@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <title>Fasting.vegan</title>
+  <style>
+ body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right,  #FFE3D5, #ffffff);
+          }
+.topbar {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     background-color: #362a23;
+     background: linear-gradient(to right, #5C4033, #362a23);
+     padding:10px 20px;
+     color: #fdf6f0;
+     box-shadow: 0 0 8px rgba(0,0,0,0.4);
+           }
+  .brand {
+     margin-top: 10px;
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     margin-left: 50px;
+          }
+  
+  .brand h1 {
+    font-size: 28px;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.brand p {
+  margin: 0;
+  font-size: 16px;
+  opacity: 0.9;
+  
+}
+      .fa-arrow-left {  
+    position:absolute;  
+    top: 10px;  
+    left: 10px;  
+    cursor: pointer;  
+    padding:10px 20px;  
+    z-index: 1001;  
+    color: #190403;  
+    background: none;  
+    font-size: 24px;  
+    border: none;  
+  }  
+   .container {
+      background-color: opacity;
+      padding: 5px 20px;
+      border-radius: 10x
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+      text-align: center;
+      margin-right: 40px
+      border-radius: 6px;
+    }
+  }
+  .title{
+    display: flex;
+    flex-direction: column;
+  }
+  .title h1 {
+    font-size: 30px;
+  }
+  .title p {
+    font-size: 25px;
+    opacity: 1;
+  }
+  .contents {
+    margin-left: 20px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5px;
+    padding: 10px 20px;
+    font-size: 20px;
+  }
+  
+  .recipe-option {
+  text-align: left;
+  text-decoration: none;
+  color: #190403;
+  background-color:opacity;
+  display: flex;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 1px 10px rgba(0,0,0,0.4);
+  transition: transform 0.2s;
+  padding: 5px 50px;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+}
+.recipe-option img {
+  width:50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 5px;
+  border: 20px;
+  border-color: solid #FFE3D5;
+
+}
+.recipe-option p {
+  margin: 0;
+  font-weight: 600;
+  font-size: 1rem;
+}
+.recipe-option:hover {
+  transform: scale(1.03);
+    }
+ 
+</style>
+</head>
+<body>
+  <div class="topbar">
+<a href="index.html" class="ham"> <i class="fa fa-arrow-left" arial-hidden="true"></i></a>
+  <div class="brand">
+    <h1>Jerry</h1>
+    <p>Cooks</p>
+  </div>
+  </div>
+  
+  <div class="container">
+    <div class="title">
+   <h1> Fasting/vegan meal</h1>
+   <p>options</p></div>
+    </div>
+  <div class="contents">
+    <a href="vbreakfast.html" class="recipe-option">
+  <img src="vbreakfast.jpg" alt="Fasting Food" onerror=" this.style.display='none'">
+  <p>Breakfast</p> 
+  </a>
+ <a href="vlunch.html" class="recipe-option">
+  <img src="vlunch.jpg" alt="Fasting Food" onerror=" this.style.display='none'">
+  <p>Lunch</p> 
+  </a>
+ <a href="vsnack.html" class="recipe-option">
+  <img src="vsnack.jpg" alt="non vegan Food" onerror=" this.style.display='none'">
+  <p>Supper/Snacks</p> 
+  </a>
+  <a href="vdinner.html" class="recipe-option">
+  <img src="vdinner.jpg" alt="non vegan Food" onerror=" this.style.display='none'">
+  <p>Dinner</p>
+  </a>
+  </div>
+</body>
+</html>
